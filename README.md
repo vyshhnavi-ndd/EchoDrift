@@ -1,2 +1,2 @@
 # EchoDrift
-A choas Theory - Butterfly effects based disaster prediction with changes in weather
+A chaos Theory - Butterfly effects based disaster prediction with changes in weather
