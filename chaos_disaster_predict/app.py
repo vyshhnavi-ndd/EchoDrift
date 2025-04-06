@@ -12,6 +12,7 @@ from sklearn.cluster import KMeans
 import folium
 from folium.plugins import HeatMap
 from geopy.geocoders import Nominatim
+from fpdf import FPDF
 
 # -------------------------------
 # Lorenz System Definition
@@ -378,3 +379,4 @@ if st.button("📤 Generate PDF Report"):
     pdf.output(pdf_path)
     with open(pdf_path, "rb") as f:
         st.download_button("📄 Download PDF Report", f, file_name=pdf_path)
+        
